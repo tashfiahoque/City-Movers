@@ -1,0 +1,9 @@
+.home{
+    background: url("../Home/Bg.png");
+    background-size: cover;
+
+
+    max-width: 100%;
+    min-height: 900px;
+    background-position: center ;
+}

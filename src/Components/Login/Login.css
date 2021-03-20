@@ -1,0 +1,92 @@
+.form-container{
+    width: 570px;
+    height: 525px;
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid #ABABAB;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin: 0 auto;
+}
+.form-container-wrapper{
+    margin: 50px;
+}
+.form-container h1{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+.form{
+    margin-top: 30px;
+}
+.form input{
+    border: none;
+    border-bottom: 1px solid #C7C7C7;
+    outline: none;
+    margin-bottom: 15px !important;
+}
+.form label{
+    font-weight: 500;
+    font-size: 16px;
+    color: #000000;
+}
+.form input[type="submit"]{
+    color: #FFFF;
+    padding: 14px 165px;
+    width: 462px;
+    height: 50px;
+    background: #FF6E40;
+}
+.form-toggle p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    white-space: pre;
+}
+.toggle-link{
+    text-decoration: underline;
+    text-decoration-color: red;
+    color: #FF6E40;
+}
+h3 {
+    overflow: hidden;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+}
+h3:before,
+h3:after {
+    background-color: #AAAAAA;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 30%;
+}
+h3:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+h3:after {
+    left: 0.5em;
+    margin-right: -50%;
+}
+.google-button input{
+    border: none;
+    outline: none;
+    width: 461px;
+    height: 51px;
+    background: #FFFFFF;
+    border: 1px solid #C7C7C7;
+    border-radius: 57px;
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 16px;
+}
+.google-icon{
+    position: relative;
+    top: 12px;
+    left: 50px;
+}
