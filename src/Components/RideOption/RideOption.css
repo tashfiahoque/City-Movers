@@ -22,3 +22,16 @@ div.col-md-3:nth-child(2) h1{
 div.col-md-3:nth-child(3) h1{
     padding-top: 9px;
 }
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    .ride-card {
+        margin-left: 20px;
+        margin-bottom: 12px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+ 
+}

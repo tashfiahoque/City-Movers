@@ -5,9 +5,10 @@ import './RideOption.css';
 const RideOption = (props) => {
 
     const { id, title, avatar } = props.rideOption;
+
     return (
         <>
-            <div className="col-md-3">
+            <div className="col-md-3 col-12">
                 <Link to={`destination/${id}`}><div className="ride-card">
                     <img src={avatar} alt={title} />
                     <div className="card-body">
@@ -16,9 +17,7 @@ const RideOption = (props) => {
                 </div>
                 </Link>
             </div>
-
         </>
-
     );
 };
 

@@ -26,13 +26,15 @@ const Login = () => {
     })
     const [error, setError] = useState({});
     const [newUser, setNewUser] = useState(false);
+
     initializeFirebaseApp();
-    //My Functions
+
     const showError = (name, message) => {
         let newError = { ...error }
         newError[name] = message
         setError(newError)
     }
+
     const handelResponse = (res, replace) => {
         setUser(res);
         setLoggedInUser(res);
@@ -40,6 +42,7 @@ const Login = () => {
             history.replace(from)
         }
     }
+
     const handleBlur = (e) => {
         let isFieldValid = true
         if (e.target.name === 'name') {
@@ -156,7 +159,7 @@ const Login = () => {
                                 <label htmlFor="floatingPassword">Confirm Password</label>
                                 {error.confirm_password && <small style={{ color: "red" }}>{error.confirm_password}</small>}
                             </div>
-                            <input type="submit" value="Sign in" id="signin_button" />
+                            <input type="submit" className="form-control" value="Sign in" id="signin_button" />
                         </form>
                         <div className="form-toggle d-flex justify-content-center align-items-center">
                             <p>Already have an account?</p>
@@ -176,7 +179,7 @@ const Login = () => {
                                 <input type="password" name="password" className="form-control" id="floatingPassword" placeholder="Password" onBlur={handleBlur} />
                                 <label htmlFor="floatingPassword">Password</label>
                             </div>
-                            <input type="submit" value="Log in" id="login_button" />
+                            <input type="submit" className="form-control" value="Log in" id="login_button" />
                         </form>
                         <div className="form-toggle d-flex justify-content-center align-items-center">
                             <p>Don't have an account?</p>

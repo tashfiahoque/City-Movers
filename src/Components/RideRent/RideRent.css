@@ -3,7 +3,7 @@
     background: #EFEFEF;
     border-radius: 10px;
 }
-.search-form, .search-form-results{
+.search-form, .search-form-timeline{
     margin: 20px;
 }
 .search-form input{
@@ -11,16 +11,16 @@
     height: 50px;
 }
 .search-form input[type="submit"]{
-    background: #FF6E40;
+    background: #3F797F;
     border-radius: 4px;
     outline: none;
     border: none;
     color: #FFF;
 }
-.search-form-results{
-    background: #FF6E40;
+.search-form-timeline{
+    background: #3F797F;
     border-radius: 10px;
-    padding: 6px;
+    padding: 0px 6px;
 }
 .timeline-container{
     position: relative;
@@ -29,11 +29,11 @@
 .timeline-container::after {
     content: '';
     position: absolute;
-    width: 4px;
+    width: 3px;
     background-color: white;
-    top: 31px;
-    bottom: 32px;
-    margin-left: -3px;
+    top: 44px;
+    bottom: 52px;
+    margin-left: -7px;
   }
   .timeline-text {
         position: relative;
@@ -41,8 +41,8 @@
   .timeline-text::after {
     content: '';
     position: absolute;
-    width: 25px;
-    height: 25px;
+    width: 20px;
+    height: 20px;
     right: -17px;
     background-color: white;
     top: 29px;
@@ -62,3 +62,20 @@
     font-size: 24px;
     color: #FFFFFF;
   }
+
+    /* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+  .search-form-container {
+    width: 280px;
+    margin-left: 18px;
+  }
+  .search-form input {
+    width: 203px;
+    height: 36px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+}

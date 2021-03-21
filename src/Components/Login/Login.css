@@ -35,18 +35,18 @@
     padding: 14px 165px;
     width: 462px;
     height: 50px;
-    background: #FF6E40;
+    background: #3F797F;
 }
 .form-toggle p{
     font-weight: 500;
     font-size: 16px;
     line-height: 22px;
-    white-space: pre;
 }
 .toggle-link{
     text-decoration: underline;
-    text-decoration-color: red;
-    color: #FF6E40;
+    text-decoration-color: #B45248;
+    color: #B45248;
+    cursor: pointer;
 }
 h3 {
     overflow: hidden;
@@ -90,3 +90,34 @@ h3:after {
     top: 12px;
     left: 50px;
 }
+
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    .form-container {
+        width: 273px;
+    }
+    .form-container-wrapper {
+        margin: 20px;
+    }
+    .form-container h1 {
+        font-size: 20px;
+    }
+    .form input[type="submit"] {
+        padding: 0 130px 0 99px;
+        width: 0px;
+    }
+    .form-toggle p {
+        font-size: 12px;
+    }
+    .google-button input {
+        width: 210px;
+        font-size: 10px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+ 
+}    

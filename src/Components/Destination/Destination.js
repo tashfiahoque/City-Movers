@@ -8,16 +8,20 @@ const Destination = () => {
 
     const { id } = useParams();
     const result = searchResults.filter((item) => item.id === parseInt(id));
+
     return (
         <>
             <Header />
-            <hr />
+            <div className="container">
+                <div className="col-12">
+                    <hr />
+                </div>
+            </div>
             <div className="container">
                 <div className="row">
                     {result.map(res => <RideRent res={res} key={res.id} />)}
                 </div>
             </div>
-
         </>
     );
 };

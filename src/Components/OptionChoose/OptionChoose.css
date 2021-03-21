@@ -1,0 +1,38 @@
+.list-group-item{
+    border: none;
+    padding: 4px 8px;
+}
+.items{
+    margin: 20px;
+    background-color: #FFFF;
+    padding: 10px;
+}
+.list-group h4{
+    font-weight: 500;
+    font-size: 18px;
+    color: #000000;
+}
+.list-group small{
+    font-weight: 500;
+    font-size: 20px;
+}
+.items h1{
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 8px;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    .list-group h4 {
+        font-size: 13px;
+    }
+    .list-group small {
+        font-size: 11px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+ 
+}
