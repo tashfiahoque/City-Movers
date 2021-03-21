@@ -14,6 +14,7 @@ const Login = () => {
     const location = useLocation();
     let { from } = location.state || { from: { pathname: "/" } };
     const [loggedInUser, setLoggedInUser] = useContext(userContext);
+    console.log(loggedInUser);
     const [user, setUser] = useState({
         isLoggedIn: false,
         name: '',
@@ -140,7 +141,6 @@ const Login = () => {
                                 <label htmlFor="floatingInput">Name</label>
                                 {error.name && <small className="text-danger">{error.name}</small>}
                             </div>
-
                             <div className="form-floating mb-3">
                                 <input type="email" name="email" className="form-control" id="floatingInput" placeholder="name@example.com" onBlur={handleBlur} />
                                 <label htmlFor="floatingInput">Email</label>
