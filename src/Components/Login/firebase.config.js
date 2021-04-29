@@ -1,9 +1,9 @@
 const firebaseConfig = {
-    apiKey: "AIzaSyBG8yeLdNI-6dqYRytHo-bmGw7N-ftnY8w",
-    authDomain: "react-auth-64fa7.firebaseapp.com",
-    projectId: "react-auth-64fa7",
-    storageBucket: "react-auth-64fa7.appspot.com",
-    messagingSenderId: "731564121863",
-    appId: "1:731564121863:web:c211ab942b69c42f1fafa2"
+    apiKey: "AIzaSyBELyILxe5xSVDTAhcufbkW6eztdFR38pQ",
+    authDomain: "react-firebase-auth-6225d.firebaseapp.com",
+    projectId: "react-firebase-auth-6225d",
+    storageBucket: "react-firebase-auth-6225d.appspot.com",
+    messagingSenderId: "166552159925",
+    appId: "1:166552159925:web:9378cbce483cb3ac6ee0fc"
 };
 export default firebaseConfig;

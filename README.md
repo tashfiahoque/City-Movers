@@ -2,4 +2,4 @@ This is a hire ride react application using firebase authentication and react ro
 
 This is made for Programming-Hero learning flatform as an assignment. 
 
-Live site: https://react-auth-64fa7.web.app;
+Live site: https://react-firebase-auth-6225d.web.app/;
