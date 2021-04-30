@@ -1,12 +1,14 @@
-CITY MOVERS
+CITY MOVERS - A Vehicle Rental Site 
 
-This is a  vehicle rental site where authenticated user able to choose vehicles to move from one place to another.
+Responsive MERN full-stack site where authenticated user able to choose vehicles to move from one place to another.
 
-If user don't have any account to log in, they can also create account here.
+User can create account and log in with email and password.
 
 User can fix the date of journey and how many passengers will go together.
 
 User can also see the direction of places with google map.
+
+Form validation also included using react-hook form.
 
 This react application made with firebase authentication, react-router and google map.
 
